@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Threading.Tasks;
 using Suteki.AsyncMvcTpl.Models;
 
@@ -16,7 +17,13 @@ namespace Suteki.AsyncMvcTpl.Services
 
         public Task<int> SendUserAMessage(User user, string message)
         {
-            return emailService.SendEmail(user.Email, message).ContinueWith(_ => 0);
+            //simulate sending a message for this example
+            return Task<int>.Factory.StartNew(() =>
+            {
+                Thread.Sleep(1000);
+                return 1;
+            });
+            //return emailService.SendEmail(user.Email, message).ContinueWith(_ => 0);
         }
     }
 }

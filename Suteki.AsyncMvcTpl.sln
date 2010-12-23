@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		README.txt = README.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTest", "AsyncTest\AsyncTest.csproj", "{748CB4B5-9D1C-45D5-9FFD-3DCDF0A7B32F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{694BF10D-68F1-4D06-AE71-00601E5D62C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{694BF10D-68F1-4D06-AE71-00601E5D62C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{694BF10D-68F1-4D06-AE71-00601E5D62C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748CB4B5-9D1C-45D5-9FFD-3DCDF0A7B32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748CB4B5-9D1C-45D5-9FFD-3DCDF0A7B32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748CB4B5-9D1C-45D5-9FFD-3DCDF0A7B32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748CB4B5-9D1C-45D5-9FFD-3DCDF0A7B32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
