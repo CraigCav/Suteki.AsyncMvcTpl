@@ -24,7 +24,7 @@ namespace Suteki.AsyncMvcTpl.Async
 
         public override ParameterDescriptor[] GetParameters()
         {
-            return new ParameterDescriptor[0];
+            return actionMethod.GetParameters().Select(pi => new ReflectedParameterDescriptor(pi, this)).ToArray();
         }
 
         public override string ActionName
